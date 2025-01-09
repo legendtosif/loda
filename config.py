@@ -9,14 +9,14 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID", "28010019"))
-API_HASH = getenv("API_HASH", "d883bdb2619d7b940dcd81cdb8e0bf92")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN", "7824572624:AAG61XO2BkKFB-jY5DG3va8l7CbNWq4aoYs")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","untold_coder")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Legend_mickey")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "leharmusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MeowMusicXbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "lehar")
 # ---------------------------------------------------------
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002136457746))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002046320443))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6391774843))
+OWNER_ID = int(getenv("OWNER_ID", 7520092354))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MOON-CODES/Clonesss",
+    "https://github.com/legendtosif/loda",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/untold_coder")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/world_friend_chatting_zone")
-SOURCE = getenv("SOURCE", "https://t.me/Moon_Music_Updates")
-CHAT = getenv("CHAT", "https://t.me/world_friend_chatting_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_incricible")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zoyu_support")
+SOURCE = getenv("SOURCE", "https://t.me/The_incricible")
+CHAT = getenv("CHAT", "https://t.me/zoyu_support")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
